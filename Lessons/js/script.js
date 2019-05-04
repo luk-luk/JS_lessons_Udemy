@@ -1,24 +1,11 @@
 
-let money = prompt ('Ваш бюджет в месяц?', '');
-let time = prompt ('Введите дату в формате YYYY-MM-DD', '');
 
-let appData = {
-	budget: money,
-	timeData: time,
-	expenses: {},
-	optionalExpenses:{},
-	income: [],
-	savings: false
-};
+let str = 'string'
 
-let a1 = prompt ('Введите обязательную статью расходов в этом месяце', '');
-let a2 = prompt ('Во сколько обойдется?', '');
-let a3 = prompt ('Введите обязательную статью расходов в этом месяце', '');
-let a4 = prompt ('Во сколько обойдется?', '');
+console.log (str.length)
+console.log (str.toUpperCase())
+console.log (str.toLowerCase())
 
-appData.expenses.a1 = a2;
-appData.expenses.a3 = a4;
-
-alert ('Бюджет на один день: ' + appData.budget / 30 );
-
-//console.log(appData.expenses.a3);
+let twelve = '12.2px'
+console.log(parseInt(twelve))
+console.log(parseFloat(twelve))
